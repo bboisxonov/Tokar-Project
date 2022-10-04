@@ -1,0 +1,132 @@
+.header_logo{
+    width: 251px;
+    height: 33.1px;
+}
+.header_top{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &_desc{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.08em;
+        color: #2B2A28;
+        width: 255px;
+    }
+    &_logos{
+        line-height: 2px;
+        &_desc{
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 0.08em;
+            color: #2B2A28;
+        }
+    }
+}
+.sn_logo{
+    cursor: pointer;
+}
+.logo_left{
+    margin-left: -30px;
+}
+
+.header_top_phone{
+    width: 200px;
+    &_number{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 16px;
+        text-align: right;
+        color: #2B2A28;
+        margin-bottom: 0;
+    }
+    &_time{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.08em;
+        color: #2B2A28;
+        margin-left: 44px;
+
+    }
+}
+.header_top_booking{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    &_text{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 18px;
+        letter-spacing: 0.08em;
+        color: #2B2A28;
+    }
+}
+
+.header_bottom{
+    display: flex;
+}
+
+.navbar_left{
+    background: #3D1E19;
+    box-shadow: 0px 0px 20px rgba(43, 42, 40, 0.2);
+    border-radius: 8px;
+
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 620px;
+    height: 72px;
+    padding: 0;
+    &_item:hover{
+        opacity: .5;
+    }
+    &_item{
+        transition: .3s ease-in-out;
+        list-style-type: none;
+        padding: 15px 50px;
+        &_link{
+            font-family: 'Nunito', sans-serif;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 146.19%;
+            letter-spacing: 0.08em;
+            color: #FFFFFF;
+        }
+        
+    }
+
+}
+.navbar_right{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 650px;
+    &_item{
+        list-style-type: none;
+        &_link{
+            font-family: 'Nunito', sans-serif;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 146.19%;
+            letter-spacing: 0.08em;
+            color: #2B2A28;
+        }
+    }
+}
+
+.right_border{
+    border-right: 1px dashed #807070;
+}

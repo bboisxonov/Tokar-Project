@@ -1,0 +1,67 @@
+.main_section2{
+    position: relative;
+    background-color: #fff;
+    width: 1500px;
+    height: 380px;
+    left: -110px;
+    &_info{
+        padding: 50px;
+        width: 1140px;
+        box-shadow: 0px 0px 30px rgba(43, 42, 40, 0.08);
+        border-radius: 8px;
+        position: absolute;
+        left: 108px;
+        top: -190px;
+        z-index: 2;
+        background-color: #fff;
+        &_title{
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 58px;
+            color: #2B2A28;
+            margin-left: 30px;
+        }
+    }
+}
+.cards{
+    display: flex;
+    &_item_sm{
+        width: 236px;
+        height: 173px;
+        margin: 30px;
+        &_title{
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 30px;
+        }
+        &_desc{ 
+            width: 180px;           
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;}
+    }
+    &_item_lg{
+        width: 270px;
+        height: 203px;
+        margin: 30px;
+        &_title{
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 30px;
+        }
+        &_desc{            
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 30px;}
+    }
+}
