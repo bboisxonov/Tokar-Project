@@ -353,13 +353,21 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+.global {
+  background-color: #fff;
+  position: relative;
+  left: -110px;
+  width: 1500px;
+  height: 1200px;
+  top: -60px;
+}
+
 .common_btn {
   background: -webkit-gradient(linear, left top, left bottom, from(#F39C32), to(#CB8734));
   background: linear-gradient(180deg, #F39C32 0%, #CB8734 100%);
   -webkit-box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
           box-shadow: 0px 4px 4px rgba(203, 135, 52, 0.2);
   border-radius: 4px;
-  border: 2px solid transparent;
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -368,14 +376,12 @@ body {
   color: #FFFFFF;
   text-decoration: none;
   padding: 16px 25px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
 }
 
 .common_btn:hover {
-  color: #F39C32;
-  background: #fff;
-  border: 2px solid #F39C32;
+  opacity: .8;
 }
 
 .mt-50 {
@@ -388,10 +394,6 @@ body {
 
 .mr-9 {
   margin-right: 9px;
-}
-
-.footer {
-  margin-top: 200px;
 }
 
 .footer_left {
@@ -930,5 +932,111 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.main_section4_title {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #2B2A28;
+}
+
+.main_section4_cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sec4_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 370px;
+  height: 452px;
+  position: relative;
+}
+
+.sec4_card_img {
+  border-radius: 0px 36px;
+  height: 260px;
+  width: 370px;
+}
+
+.sec4_card_title {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 520;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.sec4_card_description {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  color: #2B2A28;
+  margin: 0;
+}
+
+.sec4_card_btn {
+  position: absolute;
+  text-align: center;
+  left: 20px;
+  top: 20px;
+  padding: 8px 12px;
+}
+
+.main_section4_bottom {
+  margin-top: 142px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_section4_bottom_left {
+  width: 535px;
+  height: 294px;
+}
+
+.main_section4_bottom_left_title {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #2B2A28;
+}
+
+.main_section4_bottom_left_desc {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  color: #2B2A28;
+}
+
+.main_section4_bottom_right {
+  background: url("../../img/main_sec4_card4.png") no-repeat;
+  width: 570px;
+  height: 470px;
 }
 /*# sourceMappingURL=main.css.map */
